@@ -30,10 +30,16 @@ public abstract class Pessoa {
 		this.email = email;
 		this.whatapp = whatapp;
 	}
-	
-	public Pessoa() {
+	public Pessoa(String nome, Date dataNascimento ) {
 		super();
+		this.nome = nome;
+		this.dataNascimento = dataNascimento;
+		 
 	}
+	
+	/*public Pessoa() {
+		super();
+	}*/
 
 	public String getNome() {
 		return nome;

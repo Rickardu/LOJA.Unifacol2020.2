@@ -24,12 +24,16 @@ public class Vendedor  extends Pessoa{
 	
 	
 	
-	public Vendedor(String nome, Date dataNascimento, String enderecoRua, String ederecoBairro, String enderecoCep,
-			String enderecoNumero, String enderecoComplemento, String telefone, String email, String whatapp,
-			String matricula, Date dataAdmissao, Date dataDelisgamento, boolean situacao, float metaVendas,
-			float vendasAnterior, float vendasAtual, int qtdClientesAtendidos, String enderecoLojaRua,
-			String ederecoLojaBairro, String enderecoLojaCep, String enderecoLojaNumero, String enderecoLojaComplemento,
+	public Vendedor(String nome, Date dataNascimento, String enderecoRua, String ederecoBairro, 
+			String enderecoCep,String enderecoNumero, String enderecoComplemento, String telefone, 
+			String email, String whatapp,String matricula, 
+			Date dataAdmissao, Date dataDelisgamento, 
+			boolean situacao, 
+			float metaVendas,float vendasAnterior, float vendasAtual, int qtdClientesAtendidos, 
+			String enderecoLojaRua,String ederecoLojaBairro, String enderecoLojaCep, String enderecoLojaNumero, String enderecoLojaComplemento,
 			String telefone2, String email2, String whatapp2, String nomeLoja) {
+		
+		
 		super(nome, dataNascimento, enderecoRua, ederecoBairro, enderecoCep, enderecoNumero, enderecoComplemento,
 				telefone, email, whatapp);
 		this.matricula = matricula;
@@ -55,10 +59,27 @@ public class Vendedor  extends Pessoa{
 	
 	public Vendedor(String nome, Date dataNascimento, String enderecoRua, String ederecoBairro, String enderecoCep,
 			String enderecoNumero, String enderecoComplemento, String telefone, String email, String whatapp) {
+		
+		
+		
 		super(nome, dataNascimento, enderecoRua, ederecoBairro, enderecoCep, enderecoNumero, enderecoComplemento,
 				telefone, email, whatapp);
+		
+		
 	}
+	public Vendedor(String nome, Date dataNascimento, String matricula ) {		
+		super(nome, dataNascimento );
+		
+		this.matricula = matricula;
+	}
+	
+	/*public Vendedor( ) {
+		super( );
+	}*/
 
+	 
+
+ 
 
 
 	public String getMatricula() {

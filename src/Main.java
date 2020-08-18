@@ -20,10 +20,10 @@ public class Main {
 		
 		Vendedor v3 = new Vendedor("a",  f.parse("12/01/1995"), "a", "a", "a", "a", "a", "a", "a", "a", "a",f.parse("12/01/1995"),f.parse("12/01/1995"),false,1, 0, 1, 5, 
 				"a", "a", "a", "a", "a", "a", "a", "a", "a");
-		int x=5;
+		int x=42342;
 		System.out.println("Vendedor cadastrado com sucesso!!");
 		 
-		
+		 
 		
 	}
 

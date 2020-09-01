@@ -1,18 +1,11 @@
-package br.unifacol.loja;
+package br.unifacol.loja.dominio;
 
 import java.util.Date;
 
 public abstract class Pessoa {
 	protected String nome; 
 	protected Date dataNascimento;	 
-	protected String enderecoRua;
-	protected String ederecoBairro;
-	protected String enderecoCep;
-	protected String enderecoNumero;
-	protected String enderecoComplemento;
-	protected String telefone;
-	protected String email;
-	protected String whatapp;
+	public String sexo;
 	
 	
 	
@@ -21,14 +14,14 @@ public abstract class Pessoa {
 		super();
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
-		this.enderecoRua = enderecoRua;
+		/*this.enderecoRua = enderecoRua;
 		this.ederecoBairro = ederecoBairro;
 		this.enderecoCep = enderecoCep;
 		this.enderecoNumero = enderecoNumero;
 		this.enderecoComplemento = enderecoComplemento;
 		this.telefone = telefone;
 		this.email = email;
-		this.whatapp = whatapp;
+		this.whatapp = whatapp;*/
 	}
 	public Pessoa(String nome, Date dataNascimento ) {
 		super();
@@ -53,7 +46,7 @@ public abstract class Pessoa {
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	public String getEnderecoRua() {
+	/*public String getEnderecoRua() {
 		return enderecoRua;
 	}
 	public void setEnderecoRua(String enderecoRua) {
@@ -100,7 +93,7 @@ public abstract class Pessoa {
 	}
 	public void setWhatapp(String whatapp) {
 		this.whatapp = whatapp;
-	} 
+	} */
 	
 	
 }

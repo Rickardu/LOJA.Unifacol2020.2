@@ -1,4 +1,4 @@
-package br.unifacol.loja;
+package br.unifacol.loja.dominio;
 
 import java.util.ArrayList;
 

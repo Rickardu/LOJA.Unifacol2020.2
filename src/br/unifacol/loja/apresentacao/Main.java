@@ -1,12 +1,12 @@
-
+package br.unifacol.loja.apresentacao;
+import br.unifacol.loja.dominio.Vendedor;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Date;
 
-import br.unifacol.loja.Pessoa;
-import br.unifacol.loja.Vendedor;
+ 
 
 public class Main {
 	public static void main(String []args) throws ParseException {
